@@ -1,3 +1,9 @@
 3.6.2
 
     Set up Guard, didn't set up Spork
+    
+4 - Remember to try Guard
+
+    bundle exec guard
+    OR
+    guard
