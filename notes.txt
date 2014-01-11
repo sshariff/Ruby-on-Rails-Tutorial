@@ -10,3 +10,15 @@
 > [#] undefined method `singularize' for "layouts":String
 13:58:32 - ERROR - /Users/sss/Documents/rails_projects/good_sample_app/Guardfile:35:in `block (2 levels) in _instance_eval_guardfile'
 >
+
+5.6 Exercises
+
+    1. Does NOT make test fail
+    
+    2. Did not incorporate shared example for Contact due to 2. above
+    
+    3. Is "sample app" link different than home?
+    
+    4. Making application_helper_spec.rb empty doesn't cause errors
+        on page or complain that utilities.rb is calling
+        a missing ApplicationHelper
