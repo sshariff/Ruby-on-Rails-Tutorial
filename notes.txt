@@ -4,6 +4,9 @@
     
 4 - Remember to try Guard
 
-    bundle exec guard
-    OR
-    guard
+   Guard gives error
+   
+13:58:32 - ERROR - Problem with watch action!
+> [#] undefined method `singularize' for "layouts":String
+13:58:32 - ERROR - /Users/sss/Documents/rails_projects/good_sample_app/Guardfile:35:in `block (2 levels) in _instance_eval_guardfile'
+>
