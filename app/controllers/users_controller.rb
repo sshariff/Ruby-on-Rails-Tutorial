@@ -4,11 +4,18 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
+  def new
+      @user=User.new
+  end
+
   def create
+    logger.info "in create"
     @user = User.new(user_params)
     if @user.save
+      logger.info "user.save is true"
       redirect_to @user
     else
+      logger.info "rendering new"
       render 'new'
     end
   end
