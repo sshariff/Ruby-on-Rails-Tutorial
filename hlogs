@@ -1,0 +1,502 @@
+2014-05-20T18:22:21.639197+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-05-20T18:22:21.639199+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 18:22:21 +0000
+2014-05-20T18:22:21.781090+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+2014-05-20T18:22:21.639196+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-05-20T18:22:21.781100+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+2014-05-20T18:22:21.816604+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (1.1ms)
+2014-05-20T18:22:21.816617+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (1.1ms)
+2014-05-20T18:22:21.818213+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-05-20T18:22:21.818216+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-05-20T18:22:21.772987+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T18:22:21.772998+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T18:22:21.939906+00:00 heroku[router]: at=info method=GET path=/assets/application-06e6e396a7928e45d143e1959bcec24c.css host=thawing-taiga-6311.herokuapp.com request_id=81502f2d-7473-4720-90d3-2e985dbdc101 fwd="24.251.104.74" dyno=web.1 connect=3ms service=27ms status=200 bytes=107752
+2014-05-20T18:22:21.992642+00:00 heroku[router]: at=info method=GET path=/assets/application-40f59c021ef293f05c75edf90ca16af8.js host=thawing-taiga-6311.herokuapp.com request_id=2ce62742-db71-499b-a64d-2951210d82cb fwd="24.251.104.74" dyno=web.1 connect=1ms service=11ms status=200 bytes=106312
+2014-05-20T18:22:22.346535+00:00 heroku[router]: at=info method=GET path=/assets/rails_sss-a7ab96b9e5796305520cf691dd92f929.png host=thawing-taiga-6311.herokuapp.com request_id=c4a750c9-9c9a-4032-b2d0-9ffa3708cf40 fwd="24.251.104.74" dyno=web.1 connect=2ms service=8ms status=200 bytes=11606
+2014-05-20T18:22:22.514095+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=thawing-taiga-6311.herokuapp.com request_id=938bb3ae-1195-4082-850a-fc604183d1d7 fwd="24.251.104.74" dyno=web.1 connect=1ms service=10ms status=200 bytes=228
+2014-05-20T18:22:17.571176+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 18534 -e $RAILS_ENV`
+2014-05-20T18:22:25.740851+00:00 heroku[router]: at=info method=GET path=/signup host=thawing-taiga-6311.herokuapp.com request_id=1dcd3308-0909-46b4-a56a-ef2bcf88748e fwd="24.251.104.74" dyno=web.1 connect=4ms service=22ms status=200 bytes=2364
+2014-05-20T18:22:25.731241+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-05-20T18:22:25.725061+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T18:22:25.729096+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (0.8ms)
+2014-05-20T18:22:25.731235+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.3ms)
+2014-05-20T18:22:25.733313+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.1ms)
+2014-05-20T18:22:25.733264+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.1ms)
+2014-05-20T18:22:25.735379+00:00 app[web.1]: Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+2014-05-20T18:22:25.721945+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 18:22:25 +0000
+2014-05-20T18:22:25.721956+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 18:22:25 +0000
+2014-05-20T18:22:25.729071+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (0.8ms)
+2014-05-20T18:22:25.725066+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T18:22:25.734841+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.7ms)
+2014-05-20T18:22:25.734835+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.7ms)
+2014-05-20T18:22:25.735461+00:00 app[web.1]: Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+2014-05-20T18:22:39.623500+00:00 heroku[router]: at=info method=GET path=/help host=thawing-taiga-6311.herokuapp.com request_id=39b5cbe4-28be-4ef5-84fa-93e56c27662f fwd="24.251.104.74" dyno=web.1 connect=5ms service=23ms status=200 bytes=2548
+2014-05-20T18:22:39.601680+00:00 app[web.1]: Started GET "/help" for 24.251.104.74 at 2014-05-20 18:22:39 +0000
+2014-05-20T18:22:39.601689+00:00 app[web.1]: Started GET "/help" for 24.251.104.74 at 2014-05-20 18:22:39 +0000
+2014-05-20T18:22:39.603877+00:00 app[web.1]: Processing by StaticPagesController#help as HTML
+2014-05-20T18:22:39.607856+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.4ms)
+2014-05-20T18:22:39.608254+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:22:39.608549+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+2014-05-20T18:22:39.603883+00:00 app[web.1]: Processing by StaticPagesController#help as HTML
+2014-05-20T18:22:39.606120+00:00 app[web.1]:   Rendered static_pages/help.html.erb within layouts/application (0.5ms)
+2014-05-20T18:22:39.607263+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T18:22:39.607268+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T18:22:39.608259+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:22:39.606126+00:00 app[web.1]:   Rendered static_pages/help.html.erb within layouts/application (0.5ms)
+2014-05-20T18:22:39.608568+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+2014-05-20T18:22:39.607862+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.4ms)
+2014-05-20T18:22:43.634168+00:00 heroku[router]: at=info method=GET path=/ host=thawing-taiga-6311.herokuapp.com request_id=c1000f35-22f0-446c-b068-5949bac2dc83 fwd="24.251.104.74" dyno=web.1 connect=8ms service=21ms status=200 bytes=2692
+2014-05-20T18:22:43.616054+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 18:22:43 +0000
+2014-05-20T18:22:43.625469+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:22:43.625473+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:22:43.624690+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T18:22:43.625834+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+2014-05-20T18:22:43.624685+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T18:22:43.625153+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.3ms)
+2014-05-20T18:22:43.618741+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T18:22:43.623661+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+2014-05-20T18:22:43.623667+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+2014-05-20T18:22:43.625124+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.3ms)
+2014-05-20T18:22:43.625912+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+2014-05-20T18:22:43.617283+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 18:22:43 +0000
+2014-05-20T18:22:43.620620+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T18:23:34.579050+00:00 heroku[router]: at=info method=GET path=/ host=thawing-taiga-6311.herokuapp.com request_id=579ca6f1-9847-4159-b6c8-2223bfca9259 fwd="24.251.104.74" dyno=web.1 connect=4ms service=13ms status=200 bytes=2692
+2014-05-20T18:23:34.719192+00:00 heroku[router]: at=info method=GET path=/assets/application-06e6e396a7928e45d143e1959bcec24c.css host=thawing-taiga-6311.herokuapp.com request_id=d176bbf2-2416-444a-a5a3-0f93125d42fa fwd="24.251.104.74" dyno=web.1 connect=10ms service=10ms status=304 bytes=133
+2014-05-20T18:23:34.801767+00:00 heroku[router]: at=info method=GET path=/assets/application-40f59c021ef293f05c75edf90ca16af8.js host=thawing-taiga-6311.herokuapp.com request_id=8ebb8363-ad27-4d91-85ff-2492ad188f99 fwd="24.251.104.74" dyno=web.1 connect=3ms service=9ms status=304 bytes=133
+2014-05-20T18:23:34.569196+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 18:23:34 +0000
+2014-05-20T18:23:34.570952+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T18:23:34.570958+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T18:23:34.572326+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+2014-05-20T18:23:34.572395+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+2014-05-20T18:23:34.573852+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.3ms)
+2014-05-20T18:23:34.569123+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 18:23:34 +0000
+2014-05-20T18:23:34.573389+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-05-20T18:23:34.573394+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-05-20T18:23:34.573847+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.3ms)
+2014-05-20T18:23:34.574153+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:23:34.574158+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:23:34.574413+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+2014-05-20T18:23:34.574477+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+2014-05-20T18:23:34.922659+00:00 heroku[router]: at=info method=GET path=/assets/rails_sss-a7ab96b9e5796305520cf691dd92f929.png host=thawing-taiga-6311.herokuapp.com request_id=58fc9360-84b0-4eb0-b735-7c65570eb407 fwd="24.251.104.74" dyno=web.1 connect=4ms service=9ms status=304 bytes=133
+2014-05-20T18:23:36.108401+00:00 heroku[router]: at=info method=GET path=/signup host=thawing-taiga-6311.herokuapp.com request_id=1b4c26d7-ac3b-4dcf-b3d9-7d1874a0a148 fwd="24.251.104.74" dyno=web.1 connect=3ms service=12ms status=304 bytes=848
+2014-05-20T18:23:36.099403+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 18:23:36 +0000
+2014-05-20T18:23:36.104795+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.3ms)
+2014-05-20T18:23:36.099414+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 18:23:36 +0000
+2014-05-20T18:23:36.101249+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T18:23:36.101293+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T18:23:36.102259+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (0.1ms)
+2014-05-20T18:23:36.102296+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (0.1ms)
+2014-05-20T18:23:36.103458+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T18:23:36.103485+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T18:23:36.104167+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.6ms)
+2014-05-20T18:23:36.104174+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.6ms)
+2014-05-20T18:23:36.104801+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.3ms)
+2014-05-20T18:23:36.105099+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+2014-05-20T18:23:36.105105+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+2014-05-20T18:25:58.155305+00:00 heroku[router]: at=info method=GET path=/signup host=thawing-taiga-6311.herokuapp.com request_id=fca6665b-109c-4088-8d23-6c0eb785ec46 fwd="24.251.104.74" dyno=web.1 connect=2ms service=28ms status=200 bytes=2364
+2014-05-20T18:25:58.376322+00:00 heroku[router]: at=info method=GET path=/assets/application-40f59c021ef293f05c75edf90ca16af8.js host=thawing-taiga-6311.herokuapp.com request_id=75daae9b-b2ed-4569-967d-fd7de32055d1 fwd="24.251.104.74" dyno=web.1 connect=2ms service=58ms status=304 bytes=133
+2014-05-20T18:25:58.365698+00:00 heroku[router]: at=info method=GET path=/assets/application-06e6e396a7928e45d143e1959bcec24c.css host=thawing-taiga-6311.herokuapp.com request_id=86e74a13-d96d-43f6-b606-a9e1c4365827 fwd="24.251.104.74" dyno=web.1 connect=10ms service=102ms status=304 bytes=133
+2014-05-20T18:25:58.133174+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 18:25:58 +0000
+2014-05-20T18:25:58.133165+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 18:25:58 +0000
+2014-05-20T18:25:58.134094+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T18:25:58.149560+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:25:58.134089+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T18:25:58.149915+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+2014-05-20T18:25:58.139345+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (0.5ms)
+2014-05-20T18:25:58.139353+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (0.5ms)
+2014-05-20T18:25:58.148973+00:00 app[web.1]:   Rendered layouts/_header.html.erb (8.3ms)
+2014-05-20T18:25:58.140491+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-05-20T18:25:58.140496+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-05-20T18:25:58.149023+00:00 app[web.1]:   Rendered layouts/_header.html.erb (8.3ms)
+2014-05-20T18:25:58.149555+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:25:58.149920+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+2014-05-20T18:26:00.450296+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-05-20T18:26:00.450302+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-05-20T18:26:00.444394+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 18:26:00 +0000
+2014-05-20T18:26:00.444407+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 18:26:00 +0000
+2014-05-20T18:26:00.446192+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T18:26:00.451472+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-05-20T18:26:00.447975+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+2014-05-20T18:26:00.452213+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:26:00.446198+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T18:26:00.448038+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+2014-05-20T18:26:00.451383+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
+2014-05-20T18:26:00.452265+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:26:00.453779+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+2014-05-20T18:26:00.453785+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+2014-05-20T18:26:06.002154+00:00 heroku[router]: at=info method=GET path=/signup host=thawing-taiga-6311.herokuapp.com request_id=de66be27-7d30-472d-b9c6-09fd74c9a1c6 fwd="24.251.104.74" dyno=web.1 connect=1ms service=12ms status=304 bytes=848
+2014-05-20T18:26:05.997171+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (0.1ms)
+2014-05-20T18:26:05.997286+00:00 app[web.1]:   Rendered users/new.html.erb within layouts/application (0.1ms)
+2014-05-20T18:26:05.998347+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T18:26:05.998353+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T18:26:05.994671+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 18:26:05 +0000
+2014-05-20T18:26:05.999002+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.4ms)
+2014-05-20T18:26:05.994684+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 18:26:05 +0000
+2014-05-20T18:26:05.996164+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T18:26:05.996170+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T18:26:05.998829+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.4ms)
+2014-05-20T18:26:05.999363+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:26:05.999417+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T18:26:05.999695+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+2014-05-20T18:26:05.999697+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+2014-05-20T18:26:00.457845+00:00 heroku[router]: at=info method=GET path=/ host=thawing-taiga-6311.herokuapp.com request_id=cede046a-17b9-4964-bb7a-c9c58b01d274 fwd="24.251.104.74" dyno=web.1 connect=2ms service=17ms status=304 bytes=842
+2014-05-20T19:05:32+00:00 heroku[slug-compiler]: Slug compilation started
+2014-05-20T19:06:56+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-05-20T19:06:56.723736+00:00 heroku[web.1]: State changed from up to starting
+2014-05-20T19:06:56.570295+00:00 heroku[api]: Release v6 created by sss@malachiarts.com
+2014-05-20T19:06:56.570198+00:00 heroku[api]: Deploy fb8623f by sss@malachiarts.com
+2014-05-20T19:06:59.722911+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-05-20T19:06:59.722913+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-05-20T19:06:59.722896+00:00 app[web.1]: [2014-05-20 19:06:59] FATAL SignalException: SIGTERM
+2014-05-20T19:06:59.722901+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2014-05-20T19:06:59.722905+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2014-05-20T19:06:59.722903+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2014-05-20T19:06:59.722915+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-05-20T19:06:59.722916+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-05-20T19:06:59.722918+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-05-20T19:06:59.722919+00:00 app[web.1]: 	bin/rails:4:in `require'
+2014-05-20T19:06:59.722921+00:00 app[web.1]: 	bin/rails:4:in `<main>'
+2014-05-20T19:06:59.722927+00:00 app[web.1]: [2014-05-20 19:06:59] INFO  going to shutdown ...
+2014-05-20T19:06:59.722964+00:00 app[web.1]: [2014-05-20 19:06:59] INFO  WEBrick::HTTPServer#start done.
+2014-05-20T19:06:59.723024+00:00 app[web.1]: Exiting
+2014-05-20T19:06:59.722907+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2014-05-20T19:06:59.722910+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:14:in `run'
+2014-05-20T19:06:59.176926+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-05-20T19:07:00.877309+00:00 heroku[web.1]: Process exited with status 143
+2014-05-20T19:07:03.218497+00:00 app[web.1]: [2014-05-20 19:07:03] INFO  WEBrick 1.3.1
+2014-05-20T19:07:03.218520+00:00 app[web.1]: [2014-05-20 19:07:03] INFO  ruby 2.0.0 (2014-05-08) [x86_64-linux]
+2014-05-20T19:07:03.218962+00:00 app[web.1]: [2014-05-20 19:07:03] INFO  WEBrick::HTTPServer#start: pid=2 port=57718
+2014-05-20T19:07:03.676405+00:00 heroku[web.1]: State changed from starting to up
+2014-05-20T19:06:59.811880+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 57718 -e $RAILS_ENV`
+2014-05-20T19:07:58.740933+00:00 app[web.1]: => Booting WEBrick
+2014-05-20T19:07:58.740938+00:00 app[web.1]: => Rails 4.0.2 application starting in production on http://0.0.0.0:57718
+2014-05-20T19:07:58.740942+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-05-20T19:07:58.740943+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 19:07:58 +0000
+2014-05-20T19:07:58.740991+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 19:07:58 +0000
+2014-05-20T19:07:58.740940+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-05-20T19:08:00.885420+00:00 heroku[router]: at=info method=GET path=/ host=thawing-taiga-6311.herokuapp.com request_id=c8881ca2-bfee-445c-81fc-4f14838cd048 fwd="24.251.104.74" dyno=web.1 connect=22ms service=2160ms status=200 bytes=2692
+2014-05-20T19:08:00.868200+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.7ms)
+2014-05-20T19:08:00.871686+00:00 app[web.1]: Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+2014-05-20T19:08:00.871690+00:00 app[web.1]: Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+2014-05-20T19:08:00.869811+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-05-20T19:08:00.871310+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-05-20T19:08:00.831535+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+2014-05-20T19:08:00.831540+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+2014-05-20T19:08:00.868217+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.7ms)
+2014-05-20T19:08:00.869881+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.8ms)
+2014-05-20T19:08:00.871285+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.6ms)
+2014-05-20T19:08:00.823302+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T19:08:00.823315+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T19:08:02.859990+00:00 heroku[router]: at=info method=GET path=/assets/application-e269370921c40791f06cf0efd0050a22.css host=thawing-taiga-6311.herokuapp.com request_id=6dc39357-bf61-4332-b826-7191a8dcb3e2 fwd="24.251.104.74" dyno=web.1 connect=101ms service=42ms status=200 bytes=111081
+2014-05-20T19:08:06.139373+00:00 heroku[router]: at=info method=GET path=/signup host=thawing-taiga-6311.herokuapp.com request_id=3d016f16-4e93-4d25-bf33-82c391350b29 fwd="24.251.104.74" dyno=web.1 connect=4ms service=18ms status=500 bytes=1543
+2014-05-20T19:08:06.328249+00:00 heroku[router]: at=info method=GET path=/signup host=thawing-taiga-6311.herokuapp.com request_id=dc330990-af1c-4ca4-aabe-16ae675103ad fwd="24.251.104.74" dyno=web.1 connect=27ms service=50ms status=500 bytes=1543
+2014-05-20T19:08:06.124923+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 19:08:06 +0000
+2014-05-20T19:08:06.124932+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 19:08:06 +0000
+2014-05-20T19:08:06.133351+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.133358+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:08:06.127225+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T19:08:06.127232+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T19:08:06.133348+00:00 app[web.1]: PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:08:06.133353+00:00 app[web.1]:                                           ^
+2014-05-20T19:08:06.133355+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:08:06.133356+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:08:06.133366+00:00 app[web.1]: 
+2014-05-20T19:08:06.133370+00:00 app[web.1]: PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:08:06.133372+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.133373+00:00 app[web.1]:                                           ^
+2014-05-20T19:08:06.133375+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:08:06.133376+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:08:06.133378+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:08:06.133379+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:08:06.133381+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.133383+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:08:06.133384+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:08:06.133360+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:08:06.133361+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.133363+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:08:06.133364+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:08:06.133385+00:00 app[web.1]: 
+2014-05-20T19:08:06.134975+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:08:06.133533+00:00 app[web.1]: Completed 500 Internal Server Error in 6ms
+2014-05-20T19:08:06.133539+00:00 app[web.1]: Completed 500 Internal Server Error in 6ms
+2014-05-20T19:08:06.134967+00:00 app[web.1]: 
+2014-05-20T19:08:06.134970+00:00 app[web.1]: ActiveRecord::StatementInvalid (PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:08:06.134972+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.134973+00:00 app[web.1]:                                           ^
+2014-05-20T19:08:06.134981+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.134982+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:08:06.134984+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:08:06.134985+00:00 app[web.1]: ):
+2014-05-20T19:08:06.134987+00:00 app[web.1]:   app/controllers/users_controller.rb:8:in `new'
+2014-05-20T19:08:06.134988+00:00 app[web.1]: 
+2014-05-20T19:08:06.134989+00:00 app[web.1]: 
+2014-05-20T19:08:06.134993+00:00 app[web.1]: 
+2014-05-20T19:08:06.134995+00:00 app[web.1]: ActiveRecord::StatementInvalid (PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:08:06.134996+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.134976+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:08:06.134978+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:08:06.134980+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:08:06.134998+00:00 app[web.1]:                                           ^
+2014-05-20T19:08:06.135009+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:08:06.135010+00:00 app[web.1]: ):
+2014-05-20T19:08:06.135012+00:00 app[web.1]:   app/controllers/users_controller.rb:8:in `new'
+2014-05-20T19:08:06.134999+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:08:06.135001+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:08:06.135002+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:08:06.135006+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.135004+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:08:06.135007+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:08:06.135013+00:00 app[web.1]: 
+2014-05-20T19:08:06.303336+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 19:08:06 +0000
+2014-05-20T19:08:06.303390+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 19:08:06 +0000
+2014-05-20T19:08:06.305486+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T19:08:06.305530+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T19:08:06.309773+00:00 app[web.1]: PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:08:06.309794+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.309797+00:00 app[web.1]:                                           ^
+2014-05-20T19:08:06.309798+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:08:06.309800+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:08:06.135014+00:00 app[web.1]: 
+2014-05-20T19:08:06.309860+00:00 app[web.1]: PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:08:06.309862+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.309863+00:00 app[web.1]:                                           ^
+2014-05-20T19:08:06.309865+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:08:06.309866+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:08:06.309868+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:08:06.309801+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:08:06.309804+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.309803+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:08:06.309805+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:08:06.309808+00:00 app[web.1]: 
+2014-05-20T19:08:06.309807+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:08:06.309872+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:08:06.309869+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:08:06.309874+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:08:06.309875+00:00 app[web.1]: 
+2014-05-20T19:08:06.310154+00:00 app[web.1]: Completed 500 Internal Server Error in 4ms
+2014-05-20T19:08:06.310248+00:00 app[web.1]: Completed 500 Internal Server Error in 4ms
+2014-05-20T19:08:06.312314+00:00 app[web.1]: 
+2014-05-20T19:08:06.312316+00:00 app[web.1]: ActiveRecord::StatementInvalid (PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:08:06.312318+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.312320+00:00 app[web.1]:                                           ^
+2014-05-20T19:08:06.312321+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:08:06.309871+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.312322+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:08:06.312324+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:08:06.312326+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:08:06.312329+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:08:06.312328+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.312330+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:08:06.312332+00:00 app[web.1]: ):
+2014-05-20T19:08:06.312333+00:00 app[web.1]:   app/controllers/users_controller.rb:8:in `new'
+2014-05-20T19:08:06.312335+00:00 app[web.1]: 
+2014-05-20T19:08:06.312336+00:00 app[web.1]: 
+2014-05-20T19:08:06.312450+00:00 app[web.1]: 
+2014-05-20T19:08:06.312453+00:00 app[web.1]: ActiveRecord::StatementInvalid (PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:08:06.312456+00:00 app[web.1]:                                           ^
+2014-05-20T19:08:06.312457+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:08:06.312471+00:00 app[web.1]: 
+2014-05-20T19:08:06.312459+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:08:06.312460+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:08:06.312462+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:08:06.312463+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:08:06.312465+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:08:06.312466+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:08:06.312468+00:00 app[web.1]: ):
+2014-05-20T19:08:06.312469+00:00 app[web.1]:   app/controllers/users_controller.rb:8:in `new'
+2014-05-20T19:08:06.312472+00:00 app[web.1]: 
+2014-05-20T19:08:06.312454+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:11.915787+00:00 heroku[router]: at=info method=GET path=/ host=thawing-taiga-6311.herokuapp.com request_id=a19fedff-99df-4470-89e8-a0120a0c562f fwd="24.251.104.74" dyno=web.1 connect=12ms service=24ms status=304 bytes=842
+2014-05-20T19:09:11.892454+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 19:09:11 +0000
+2014-05-20T19:09:11.892463+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 19:09:11 +0000
+2014-05-20T19:09:11.894300+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T19:09:11.895713+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+2014-05-20T19:09:11.896682+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T19:09:11.894306+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T19:09:11.895708+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+2014-05-20T19:09:11.896687+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T19:09:11.897139+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.3ms)
+2014-05-20T19:09:11.897703+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+2014-05-20T19:09:11.897460+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T19:09:11.897708+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+2014-05-20T19:09:11.897144+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.3ms)
+2014-05-20T19:09:11.897455+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T19:09:15.202648+00:00 heroku[router]: at=info method=GET path=/assets/application-e269370921c40791f06cf0efd0050a22.css host=thawing-taiga-6311.herokuapp.com request_id=7da283af-a291-42d3-b4c4-6ed5cd214d69 fwd="24.251.104.74" dyno=web.1 connect=0ms service=8ms status=304 bytes=133
+2014-05-20T19:09:17.883372+00:00 heroku[router]: at=info method=GET path=/about host=thawing-taiga-6311.herokuapp.com request_id=b09c3a9b-5c67-4aa1-b528-945e5bd7ac3b fwd="24.251.104.74" dyno=web.1 connect=3ms service=22ms status=200 bytes=2579
+2014-05-20T19:09:17.864398+00:00 app[web.1]: Started GET "/about" for 24.251.104.74 at 2014-05-20 19:09:17 +0000
+2014-05-20T19:09:17.864406+00:00 app[web.1]: Started GET "/about" for 24.251.104.74 at 2014-05-20 19:09:17 +0000
+2014-05-20T19:09:17.865825+00:00 app[web.1]: Processing by StaticPagesController#about as HTML
+2014-05-20T19:09:17.865830+00:00 app[web.1]: Processing by StaticPagesController#about as HTML
+2014-05-20T19:09:17.868498+00:00 app[web.1]:   Rendered static_pages/about.html.erb within layouts/application (0.9ms)
+2014-05-20T19:09:17.871030+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.5ms)
+2014-05-20T19:09:17.868599+00:00 app[web.1]:   Rendered static_pages/about.html.erb within layouts/application (0.9ms)
+2014-05-20T19:09:17.871036+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.5ms)
+2014-05-20T19:09:17.872903+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.1ms)
+2014-05-20T19:09:17.872908+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.1ms)
+2014-05-20T19:09:17.874417+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.7ms)
+2014-05-20T19:09:17.874424+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.7ms)
+2014-05-20T19:09:17.874763+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+2014-05-20T19:09:17.874768+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+2014-05-20T19:09:21.447686+00:00 heroku[router]: at=info method=GET path=/about host=thawing-taiga-6311.herokuapp.com request_id=b67026b7-7671-462f-a788-7b3f4b76090d fwd="24.251.104.74" dyno=web.1 connect=3ms service=51ms status=200 bytes=2579
+2014-05-20T19:09:21.398845+00:00 app[web.1]: Started GET "/about" for 24.251.104.74 at 2014-05-20 19:09:21 +0000
+2014-05-20T19:09:21.398855+00:00 app[web.1]: Started GET "/about" for 24.251.104.74 at 2014-05-20 19:09:21 +0000
+2014-05-20T19:09:21.400455+00:00 app[web.1]: Processing by StaticPagesController#about as HTML
+2014-05-20T19:09:21.400461+00:00 app[web.1]: Processing by StaticPagesController#about as HTML
+2014-05-20T19:09:21.401600+00:00 app[web.1]:   Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+2014-05-20T19:09:21.401644+00:00 app[web.1]:   Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+2014-05-20T19:09:21.402808+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T19:09:21.402814+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T19:09:21.403373+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.4ms)
+2014-05-20T19:09:21.403379+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.4ms)
+2014-05-20T19:09:21.403750+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T19:09:21.403792+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T19:09:21.404049+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+2014-05-20T19:09:21.404122+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+2014-05-20T19:09:23.977683+00:00 heroku[router]: at=info method=GET path=/contact host=thawing-taiga-6311.herokuapp.com request_id=2fa33480-9b0f-406c-b8f2-cd98f1d0eb8a fwd="24.251.104.74" dyno=web.1 connect=18ms service=35ms status=200 bytes=2451
+2014-05-20T19:09:23.943864+00:00 app[web.1]: Started GET "/contact" for 24.251.104.74 at 2014-05-20 19:09:23 +0000
+2014-05-20T19:09:23.945468+00:00 app[web.1]: Processing by StaticPagesController#contact as HTML
+2014-05-20T19:09:23.945474+00:00 app[web.1]: Processing by StaticPagesController#contact as HTML
+2014-05-20T19:09:23.947877+00:00 app[web.1]:   Rendered static_pages/contact.html.erb within layouts/application (0.6ms)
+2014-05-20T19:09:23.948980+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T19:09:23.949570+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.4ms)
+2014-05-20T19:09:23.947871+00:00 app[web.1]:   Rendered static_pages/contact.html.erb within layouts/application (0.6ms)
+2014-05-20T19:09:23.943854+00:00 app[web.1]: Started GET "/contact" for 24.251.104.74 at 2014-05-20 19:09:23 +0000
+2014-05-20T19:09:23.949575+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.4ms)
+2014-05-20T19:09:23.949933+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T19:09:23.949938+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T19:09:23.948975+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2014-05-20T19:09:23.950310+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+2014-05-20T19:09:23.950304+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+2014-05-20T19:09:25.889606+00:00 heroku[router]: at=info method=GET path=/ host=thawing-taiga-6311.herokuapp.com request_id=23848d09-8499-4f05-953e-f4a9a72c59f4 fwd="24.251.104.74" dyno=web.1 connect=3ms service=21ms status=200 bytes=2692
+2014-05-20T19:09:25.862203+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 19:09:25 +0000
+2014-05-20T19:09:25.867300+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+2014-05-20T19:09:25.869000+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-05-20T19:09:25.862263+00:00 app[web.1]: Started GET "/" for 24.251.104.74 at 2014-05-20 19:09:25 +0000
+2014-05-20T19:09:25.869005+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.1ms)
+2014-05-20T19:09:25.864013+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T19:09:25.869717+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.4ms)
+2014-05-20T19:09:25.869711+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.4ms)
+2014-05-20T19:09:25.870159+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T19:09:25.864099+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2014-05-20T19:09:25.867206+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+2014-05-20T19:09:25.870167+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.2ms)
+2014-05-20T19:09:25.870706+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+2014-05-20T19:09:25.870714+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+2014-05-20T19:09:28.258901+00:00 heroku[router]: at=info method=GET path=/signup host=thawing-taiga-6311.herokuapp.com request_id=4497695f-4995-4885-9ab4-894cf57679da fwd="24.251.104.74" dyno=web.1 connect=1ms service=15ms status=500 bytes=1543
+2014-05-20T19:09:28.248187+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 19:09:28 +0000
+2014-05-20T19:09:28.253459+00:00 app[web.1]: PG::Error: ERROR:  relation "users"
+ does not exist
+2014-05-20T19:09:28.248169+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 19:09:28 +0000
+2014-05-20T19:09:28.249774+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T19:09:28.253464+00:00 app[web.1]:                                           ^
+2014-05-20T19:09:28.249718+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T19:09:28.253462+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.253467+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:09:28.253471+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:09:28.253465+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:09:28.253488+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:09:28.253474+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:09:28.253477+00:00 app[web.1]: 
+2014-05-20T19:09:28.253469+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:09:28.253475+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:09:28.253472+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.253490+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:09:28.253484+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.253608+00:00 app[web.1]: Completed 500 Internal Server Error in 4ms
+2014-05-20T19:09:28.253493+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.253496+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:09:28.253487+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:09:28.255272+00:00 app[web.1]:                                           ^
+2014-05-20T19:09:28.253491+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:09:28.255270+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.255268+00:00 app[web.1]: ActiveRecord::StatementInvalid (PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:09:28.255273+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:09:28.253494+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:09:28.253485+00:00 app[web.1]:                                           ^
+2014-05-20T19:09:28.253482+00:00 app[web.1]: PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:09:28.255265+00:00 app[web.1]: 
+2014-05-20T19:09:28.255295+00:00 app[web.1]: ActiveRecord::StatementInvalid (PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:09:28.255296+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.255285+00:00 app[web.1]:   app/controllers/users_controller.rb:8:in `new'
+2014-05-20T19:09:28.255330+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:09:28.255337+00:00 app[web.1]: 
+2014-05-20T19:09:28.255333+00:00 app[web.1]: ):
+2014-05-20T19:09:28.255335+00:00 app[web.1]:   app/controllers/users_controller.rb:8:in `new'
+2014-05-20T19:09:28.255332+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:09:28.255278+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:09:28.255276+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:09:28.253614+00:00 app[web.1]: Completed 500 Internal Server Error in 4ms
+2014-05-20T19:09:28.253497+00:00 app[web.1]: 
+2014-05-20T19:09:28.255279+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.255336+00:00 app[web.1]: 
+2014-05-20T19:09:28.255275+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:09:28.255284+00:00 app[web.1]: ):
+2014-05-20T19:09:28.255283+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:09:28.255281+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:09:28.255293+00:00 app[web.1]: 
+2014-05-20T19:09:28.255298+00:00 app[web.1]:                                           ^
+2014-05-20T19:09:28.255288+00:00 app[web.1]: 
+2014-05-20T19:09:28.255299+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:09:28.255287+00:00 app[web.1]: 
+2014-05-20T19:09:28.255324+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:09:28.255328+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:09:28.255326+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:09:28.255329+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.677702+00:00 heroku[router]: at=info method=GET path=/signup host=thawing-taiga-6311.herokuapp.com request_id=f4c30001-c9a4-47cd-ba76-8be024144d0b fwd="24.251.104.74" dyno=web.1 connect=25ms service=42ms status=500 bytes=1543
+2014-05-20T19:09:28.637630+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 19:09:28 +0000
+2014-05-20T19:09:28.637639+00:00 app[web.1]: Started GET "/signup" for 24.251.104.74 at 2014-05-20 19:09:28 +0000
+2014-05-20T19:09:28.638668+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T19:09:28.638673+00:00 app[web.1]: Processing by UsersController#new as HTML
+2014-05-20T19:09:28.642666+00:00 app[web.1]: PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:09:28.642668+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.642677+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:09:28.642678+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.642680+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:09:28.642682+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:09:28.642684+00:00 app[web.1]: 
+2014-05-20T19:09:28.642688+00:00 app[web.1]: PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:09:28.642670+00:00 app[web.1]:                                           ^
+2014-05-20T19:09:28.642672+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:09:28.642674+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:09:28.642675+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:09:28.642690+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.642691+00:00 app[web.1]:                                           ^
+2014-05-20T19:09:28.642693+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:09:28.642694+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:09:28.642696+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:09:28.642697+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:09:28.642699+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.642700+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:09:28.642702+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:09:28.642703+00:00 app[web.1]: 
+2014-05-20T19:09:28.642813+00:00 app[web.1]: Completed 500 Internal Server Error in 4ms
+2014-05-20T19:09:28.642820+00:00 app[web.1]: Completed 500 Internal Server Error in 4ms
+2014-05-20T19:09:28.644396+00:00 app[web.1]:                                           ^
+2014-05-20T19:09:28.644390+00:00 app[web.1]: 
+2014-05-20T19:09:28.644393+00:00 app[web.1]: ActiveRecord::StatementInvalid (PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:09:28.644398+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:09:28.644415+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:09:28.644416+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:09:28.644418+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:09:28.644419+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.644421+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:09:28.644422+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:09:28.644395+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.644423+00:00 app[web.1]: ):
+2014-05-20T19:09:28.644425+00:00 app[web.1]:   app/controllers/users_controller.rb:8:in `new'
+2014-05-20T19:09:28.644426+00:00 app[web.1]: 
+2014-05-20T19:09:28.644428+00:00 app[web.1]: 
+2014-05-20T19:09:28.644433+00:00 app[web.1]: 
+2014-05-20T19:09:28.644436+00:00 app[web.1]: LINE 5:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.644434+00:00 app[web.1]: ActiveRecord::StatementInvalid (PG::Error: ERROR:  relation "users" does not exist
+2014-05-20T19:09:28.644437+00:00 app[web.1]:                                           ^
+2014-05-20T19:09:28.644439+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2014-05-20T19:09:28.644441+00:00 app[web.1]:                 FROM pg_attribute a LEFT JOIN pg_attrdef d
+2014-05-20T19:09:28.644443+00:00 app[web.1]:                   ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2014-05-20T19:09:28.644440+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2014-05-20T19:09:28.644444+00:00 app[web.1]:                WHERE a.attrelid = '"users"'::regclass
+2014-05-20T19:09:28.644446+00:00 app[web.1]:                  AND a.attnum > 0 AND NOT a.attisdropped
+2014-05-20T19:09:28.644452+00:00 app[web.1]: 
+2014-05-20T19:09:28.644447+00:00 app[web.1]:                ORDER BY a.attnum
+2014-05-20T19:09:28.644448+00:00 app[web.1]: ):
+2014-05-20T19:09:28.644450+00:00 app[web.1]:   app/controllers/users_controller.rb:8:in `new'
+2014-05-20T19:09:28.644451+00:00 app[web.1]: 
