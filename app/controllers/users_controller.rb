@@ -12,6 +12,7 @@ class UsersController < ApplicationController
     logger.info "in create"
     @user = User.new(user_params)
     if @user.save
+      sign_in @user
       logger.info "user.save is true"
       flash[:success] = "Welcome to the Sample App!"
       redirect_to @user
