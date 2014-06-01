@@ -22,3 +22,12 @@
     4. Making application_helper_spec.rb empty doesn't cause errors
         on page or complain that utilities.rb is calling
         a missing ApplicationHelper
+
+
+
+10.3.2  what do they mean by permitting content only to be edited through web?
+
+Look at what's private in User, Micropost controllers
+
+Had to add @object=@micropost line to micropost controller
+Had to do the same in create and update defs in user controller
