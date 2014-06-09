@@ -23,7 +23,7 @@
         on page or complain that utilities.rb is calling
         a missing ApplicationHelper
 
-
+10.3.1 submitting to destroy action, why FactoryGirl.create and not .destroy?
 
 10.3.2  what do they mean by permitting content only to be edited through web?
 
@@ -31,3 +31,18 @@ Look at what's private in User, Micropost controllers
 
 Had to add @object=@micropost line to micropost controller
 Had to do the same in create and update defs in user controller
+
+
+11.1  Why does the following tables need email, password, etc?
+
+	Why does User model have relationships foreign key for follower_id, but nor followed_id?
+
+11.2.4  deleted user.follow!(other_user) under "unfollowing a user"
+	added user.unfollow!(other_user) under "following a user"
+
+	user is already followed, can't follow again, or get Followed button without unfollowing
+
+11.2.5 A working follow button with Ajax - I'm not redirected to original page, why do I need to do this Ajax stuff?
+
+
+Look at final SQL query, Listing 11.45
